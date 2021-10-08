@@ -82,5 +82,5 @@ while True:
         pathChange(command[1])
     elif command[0] == "movingFiles": #Перемещение файла в другую папку
         movingFiles(command[1], command[2])
-    elif command[0] == copyFile: 
+    elif command[0] == "copyFile": 
         copyFile(command[1], command[2])
