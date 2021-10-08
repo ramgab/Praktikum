@@ -57,7 +57,7 @@ def movingFiles(fileName, dirName): #Перемещение файла в дру
     
 def copyFile(fileName, copyPath): #Копирование файла в другую папку
     copyPath = path + "/" + copyPath
-    shutil.copyfile(path + '/' + fileName, copyPath)
+    shutil.copy(path + '/' + fileName, copyPath)
     
 while True:
     command = input("Введите команду: ")
